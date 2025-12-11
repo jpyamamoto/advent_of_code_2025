@@ -1,0 +1,4 @@
+name: aoc-2025
+include: ./src
+depend: standard-library
+flags: --erasure --no-projection-like --guardedness

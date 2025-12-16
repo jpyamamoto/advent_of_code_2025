@@ -9,6 +9,7 @@ Advent of Code is an annual event featuring daily programming puzzles throughout
 ## Prerequisites
 
 - [Agda](https://agda.readthedocs.io/en/latest/getting-started/installation.html) compiler installed on your system
+- [Agda standard library](https://github.com/agda/agda-stdlib) installed and configured
 
 ## Project Structure
 

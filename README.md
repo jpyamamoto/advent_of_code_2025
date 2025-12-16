@@ -47,10 +47,6 @@ For Day 2:
 agda --compile src/Day02.agda --compile-dir=./out && ./out/Day02
 ```
 
-## Solutions
-
-Solutions will be added daily during the Advent of Code event.
-
 ## License
 
 This project is open source and available for educational purposes.

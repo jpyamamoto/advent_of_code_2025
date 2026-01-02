@@ -7,7 +7,7 @@ open import Data.Bool
 open import Data.List using (List)
 open import Data.Maybe hiding (_>>=_)
 open import Data.String
-open import Data.Integer hiding (_/ℕ_; _≤ᵇ_)
+open import Data.Integer hiding (_/ℕ_; _≤ᵇ_; _*_)
 open import Data.Product
 
 import Data.Nat as Nat
@@ -66,7 +66,7 @@ runSequencePart2 = runSequence changeCounter
     changeCounter : ℕ → ℤ → ℕ → ℕ
     changeCounter init instr _ =
       let fullRotations = ((∣ instr ∣) /ℕ 100)
-          diff = instr - (sign instr ◃ (fullRotations *ℕ 100))
+          diff = instr - (sign instr ◃ (fullRotations * 100))
           extra = if (crossed0 init diff) then 1 else 0
       in fullRotations +ℕ extra
 
